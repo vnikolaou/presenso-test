@@ -1,5 +1,9 @@
 package benchmark.matrix;
 
+/**
+ * Base interface for concrete implementations for operations over 2D arrays.
+ * @author vnik
+ */
 public interface Array2DMod2 {
 	public int[][] add();
 	public int[][] multiply();

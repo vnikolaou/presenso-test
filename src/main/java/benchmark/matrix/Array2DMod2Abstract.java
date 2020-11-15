@@ -2,6 +2,10 @@ package benchmark.matrix;
 
 import java.util.Random;
 
+/**
+ * Abstract base class for concrete implementations for operations over 2D arrays.
+ * @author vnik
+ */
 public abstract class Array2DMod2Abstract {
 	protected int size;
 	protected boolean init;

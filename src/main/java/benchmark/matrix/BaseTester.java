@@ -2,6 +2,10 @@ package benchmark.matrix;
 
 import java.util.Arrays;
 
+/**
+ * Simple tester that measures the performance for sequential and parallel process against 2D data.  
+ * @author vnik
+ */
 public class BaseTester {
 	private static final int[][] a = new int[][] { {0,1,0}, {1,0,1}, {0,1,1} };
 	private static final int[][] b = new int[][] { {1,1,0}, {0,0,0}, {0,1,1} };

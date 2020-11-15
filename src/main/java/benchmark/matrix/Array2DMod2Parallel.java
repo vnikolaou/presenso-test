@@ -1,5 +1,9 @@
 package benchmark.matrix;
 
+/**
+ * Handles the partially parallel process of multiplying two 2D arrays of dynamic size. 
+ * @author vnik
+ */
 import java.util.Arrays;
 
 import org.javatuples.Pair;
