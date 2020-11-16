@@ -19,7 +19,7 @@ git clone https://github.com/vnikolaou/presenso-test.git
 4. Move into the folder:
 
 ```
-cd cd presenso-test
+cd presenso-test
 ```
 5. Run:
 
