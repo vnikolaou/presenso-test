@@ -14,7 +14,7 @@ cd presenso
 3. Run:
 
 ```
-git clone
+https://github.com/vnikolaou/presenso-test.git
 ```
 4. Move into the folder:
 
