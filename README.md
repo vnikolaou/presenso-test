@@ -14,12 +14,12 @@ cd presenso
 3. Run:
 
 ```
-https://github.com/vnikolaou/presenso-test.git
+git clone https://github.com/vnikolaou/presenso-test.git
 ```
 4. Move into the folder:
 
 ```
-cd
+cd cd presenso-test
 ```
 5. Run:
 
