@@ -42,12 +42,19 @@ public class BaseTester {
 		int[][] prod = runner.multiply();
 		
 		if(log) {
-			System.out.println(Arrays.deepToString(runner.getA()));
-			System.out.println(Arrays.deepToString(runner.getB()));
-			System.out.println(Arrays.deepToString(prod));	
+			log(runner.getA(), "A");
+			log(runner.getB(), "B");
+			log(prod, "C");				
 		}
 				
 		long after = System.currentTimeMillis();
 		System.out.println(runner.getClass().getName() + " : Execution took " + (after-before) + " msecs");		
+	}
+	
+	private static void log(int[][] a, String id) {
+		System.out.println("Array: " + id);
+		for(int i=0; i < a.length; i++) {
+			System.out.println(Arrays.toString(a[i]));
+		}
 	}
 }
